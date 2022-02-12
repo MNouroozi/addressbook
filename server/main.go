@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb ""
+	pb "github.com/MNouroozi/addressbook/proto/v1"
 )
 
 const (

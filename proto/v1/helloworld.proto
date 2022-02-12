@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package helloworld;
-option go_package = "company.tld/proj/helloworld";
+option go_package = "github.com/MNouroozi/addressbook/proto/v1";
 
 // The greeting service definition
 service Greeter {

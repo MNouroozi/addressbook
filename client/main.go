@@ -8,7 +8,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "company.tld/proj/helloworld"
+	pb "github.com/MNouroozi/addressbook/helloworld.go.proto"
 )
 
 const (
