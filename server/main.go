@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/MNouroozi/addressbook/proto/v1"
+	pb "github.com/MNouroozi/addressbook/proto/v2/helloworld"
 	"google.golang.org/grpc"
 )
 
@@ -15,7 +15,7 @@ const (
 
 // server is used to implement helloworld.GreeterServer.
 type server struct {
-	pb.
+	pb.UnimplementedGreeterServer{}
 }
 
 // SayHello implements helloworld.GreeterServer

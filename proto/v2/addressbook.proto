@@ -4,7 +4,7 @@ package addressbook;
 import "google/protobuf/empty.proto";
 import "google/protobuf/timestamp.proto";
 
-option go_package = "helloworld.com/project/protos/addressbook";
+option go_package = "helloworld.com/project/protos/v2/addressbook";
 
 service ListPepole {
   rpc GetListPepole(google.protobuf.Empty) returns (GetAddressBook) {};
