@@ -6,9 +6,8 @@ import (
 	"os"
 	"time"
 
-	"google.golang.org/grpc"
-
 	pb "github.com/MNouroozi/addressbook/proto/v2/helloworld"
+	"google.golang.org/grpc"
 )
 
 const (
