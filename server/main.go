@@ -5,9 +5,8 @@ import (
 	"log"
 	"net"
 
-	"google.golang.org/grpc"
-
 	pb "github.com/MNouroozi/addressbook/proto/v1"
+	"google.golang.org/grpc"
 )
 
 const (
